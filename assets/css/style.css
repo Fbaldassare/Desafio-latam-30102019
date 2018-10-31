@@ -9,6 +9,11 @@ h1{
     margin-top: 250px;
 }
 
+h4{
+    font-family: 'Playfair Display';
+    color: #707070;
+}
+
 p{
     font-family: 'Roboto';
     font-size: 18px;
