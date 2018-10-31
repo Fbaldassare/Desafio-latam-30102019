@@ -12,12 +12,15 @@ h1{
 h4{
     font-family: 'Playfair Display';
     color: #707070;
+    padding: 25px 0 25px 0;
 }
 
 p{
     font-family: 'Roboto';
+    font-weight: 300;
     font-size: 18px;
     color: #323333;
+    line-height: 30px;
     
 }
 
@@ -31,22 +34,32 @@ p{
 
 
 /* colors */
-.color_eerie_black{
+.color-eerieblack{
     color:#121619;
 }
 
-.color_jet{
+.color-jet{
     color:#323333;   
 }
     
-.color_nickel{
-    color: #d56c6a;
+.color-nickel{
+    color: #707070;
+}
+.color-nickel_background{
+    background: #707070;
+}
+
+.color-nickel-light_background{
+    background: #cccccc;
+}
+.color-fuzzy-wuzzy{
+    color: #D56C6A;
 }
 
 .color_white{
     color: #ffffff;
 }
-
+.color_
 /* navbar */
 .navbar{
     border-radius: 0;
@@ -60,4 +73,58 @@ p{
 
 .navbar-inverse .navbar-nav{
     color: white;
+}
+/* more pages */
+.container__more-pages_height{
+    height:125px;
+}
+.contact{
+    height: 250px;
+    color: #707070;
+}
+
+.contact__img img{
+    border: 1px solid #a2a2a2;
+    border-radius: 50%;
+    height: 200px;
+}
+.contact__case_img{
+    padding: 50px 0 50px 25px;
+}
+.contact__case-tittle{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 20px; 
+    font-weight: 900;
+    color: black;
+}
+.contact__case-name{
+    font-family: 'Roboto';
+    font-weight:200;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.contact__case-web{
+    font-family: 'Roboto';
+    font-weight:200;
+    font-size: 14px;}
+}
+
+.contact__case_description{
+    padding-top: 50px;
+}
+
+.contact__case__description_paragraph p{
+    font-family: 'Roboto';
+    font-weight:200;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top:25px;
+}
+
+/* footer */
+footer{
+    height: 150px;
+    color: #121619
 }
