@@ -98,9 +98,21 @@ a:hover{
 }
 /*butons article*/
 .button-article{
-    padding: 30px;
-    border-radius: 30px;
-    background-color: #323333;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #a2a2a2;
+    color: white;
+}
+
+.button-article-large{
+    font-size: 30px;
+    padding: 20px;
+    border-radius:40px;
+    background-color: #a2a2a2;
+    color: white;
+    font-family: 'Roboto'
+
 }
 
 .line{
